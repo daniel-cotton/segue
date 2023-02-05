@@ -29,6 +29,11 @@
             "glob": "packages/bindings/segue-react-router/README.md",
             "input": ".",
             "output": "."
+          },
+          {
+            "glob": "LICENCE",
+            "input": ".",
+            "output": "."
           }
         ]
       }

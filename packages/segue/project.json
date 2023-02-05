@@ -11,7 +11,7 @@
         "outputPath": "dist/packages/segue",
         "main": "packages/segue/src/index.ts",
         "tsConfig": "packages/segue/tsconfig.lib.json",
-        "assets": ["packages/segue/*.md"]
+        "assets": ["packages/segue/*.md", "LICENCE"]
       }
     },
     "publish": {
