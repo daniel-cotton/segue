@@ -35,6 +35,8 @@ This ID needs to be consistent across any pair of shared elements!
 
 And you're done - wasn't that easy!
 
+There's a full example in [our repo](https://github.com/daniel-cotton/segue/tree/live/packages/examples/react-segue-example)
+
 ### With your own bindings
 
 Install dependencies via your package manager of choice.
