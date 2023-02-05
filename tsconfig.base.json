@@ -14,7 +14,15 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@dancotton/segue": ["packages/segue/src/index.ts"],
+      "@dancotton/segue-react-router": [
+        "packages/bindings/segue-react-router/src/index.ts"
+      ],
+      "@segue/bindings/react-router": [
+        "packages/bindings/react-router/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
