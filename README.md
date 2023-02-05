@@ -2,6 +2,9 @@
 
 ![Segue](https://user-images.githubusercontent.com/21035486/216847115-d709992f-33a9-4e8e-a5e2-e15e551c29e9.gif)
 
+Segue makes shared element transitions declarative and easy for web developers.
+
+It's a wrapper of the amazing GSAP flip plugin.
 
 ## Quickstart
 

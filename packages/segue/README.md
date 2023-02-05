@@ -1,5 +1,9 @@
 # Segue
 
+Segue makes shared element transitions declarative and easy for web developers.
+
+It's a wrapper of the amazing GSAP flip plugin.
+
 ## Quickstart
 
 ### With Pre-made Bindings
