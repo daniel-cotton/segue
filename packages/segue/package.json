@@ -1,5 +1,6 @@
 {
   "name": "@dancotton/segue",
-  "version": "0.0.2",
-  "type": "commonjs"
+  "version": "0.0.3",
+  "type": "commonjs",
+  "license": "MIT"
 }
