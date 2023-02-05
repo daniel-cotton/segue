@@ -1,6 +1,5 @@
 {
   "name": "bindings-segue-react-router",
-  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "packages/bindings/segue-react-router/src",
   "projectType": "library",
   "tags": [],
@@ -13,6 +12,33 @@
           "packages/bindings/segue-react-router/**/*.{ts,tsx,js,jsx}"
         ]
       }
+    },
+    "build": {
+      "executor": "@nrwl/rollup:rollup",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/bindings/segue-react-router",
+        "tsConfig": "packages/bindings/segue-react-router/tsconfig.lib.json",
+        "project": "packages/bindings/segue-react-router/package.json",
+        "entryFile": "packages/bindings/segue-react-router/src/index.ts",
+        "external": ["react/jsx-runtime"],
+        "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+        "compiler": "babel",
+        "assets": [
+          {
+            "glob": "packages/bindings/segue-react-router/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "publish": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "node tools/scripts/publish.mjs segue-react-router {args.ver} {args.tag}"
+      },
+      "dependsOn": ["build"]
     }
   }
 }

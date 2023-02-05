@@ -57,5 +57,10 @@
         "unitTestRunner": "none"
       }
     }
+  },
+  "pluginsConfig": {
+    "@nrwl/js": {
+      "analyzeSourceFiles": true
+    }
   }
 }

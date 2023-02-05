@@ -1,5 +1,3 @@
-# Segue React Router (v6.7 or above)
+# Segue for React Router (v6.7+)
 
-## Quickstart
-
-Coming soon!
+Coming soon.
